@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0;
+
+  h4 {
+    font-family: 'Noe Display Bold', serif;
+    font-size: 4em;
+    margin: 0;
+    margin-bottom: 0.2em;
+  }
+  a {
+    z-index: 99999;
+  }
+  .footer {
+    z-index: 99;
+    p {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      margin: 0;
+      margin-bottom: 0.5em;
+      font-size: 0.8em;
+      color: #828282;
+    }
+    a {
+      font-weight: 400;
+    }
+  }
+}

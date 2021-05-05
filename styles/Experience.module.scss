@@ -1,0 +1,83 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6em;
+  h5 {
+    font-family: 'Noe Display Bold', serif;
+    font-size: 3em;
+    margin-bottom: 0.2em;
+  }
+  span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+  }
+  .content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+    z-index: 99;
+    .list {
+      display: flex;
+      flex-direction: column;
+      width: 50px;
+      button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        color: inherit;
+        margin: 0.5em 0;
+        font-size: 1.2em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        padding-left: 1em;
+        text-align: left;
+        &:active,
+        &:focus {
+          border-left: 2px solid;
+          font-weight: 400;
+        }
+        &:hover {
+      
+          transition: all 0.3s ease-in;
+          font-weight: 400;
+        }
+      }
+      .active {
+        border-left: 2px solid;
+        font-weight: 400;
+      }
+    }
+    .experience {
+      width: 70%;
+      margin-top: 0.5em;
+      h6 {
+        font-family: 'Noe Display Bold', serif;
+        font-size: 1.4em;
+        margin-bottom: 0.2em;
+      }
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1em;
+      }
+      ul {
+        margin-left: -1.5em;
+        margin-top: 2em;
+        li {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          font-size: 1em;
+          line-height: 1.5em;
+          margin: 1em 0;
+          list-style: circle;
+        }
+      }
+    }
+  }
+}

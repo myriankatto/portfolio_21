@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6em;
+
+  .content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 2em;
+    .text {
+      width: 50%;
+      h5 {
+        font-family: 'Noe Display Bold', serif;
+        font-size: 3em;
+        margin-bottom: 0.2em;
+      }
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.6em;
+        margin-bottom: 1em;
+      }
+      strong {
+        font-weight: 500;
+      }
+      .technologies {
+        display: flex;
+        margin-top: -1.5em;
+        ul {
+          &:first-child {
+            margin-left: -1.5em;
+          }
+          li {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: .9em;
+            line-height: 1em;
+            margin: 0.5em 0;
+            list-style: circle;
+          }
+        }
+      }
+    }
+    .image {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index:-999;
+    }
+  }
+}
