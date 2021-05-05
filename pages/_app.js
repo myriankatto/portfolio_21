@@ -13,12 +13,12 @@ function MyApp({ Component, pageProps }) {
 
   
   const toggleTheme = () => {
-    setLoading(true);
+    // setLoading(true);
     theme == 'light' ? setTheme('dark') : setTheme('light');
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-    return () => clearTimeout(timer);
+    // const timer = setTimeout(() => {
+    //   setLoading(false);
+    // }, 1000);
+    // return () => clearTimeout(timer);
   };
 
   return (

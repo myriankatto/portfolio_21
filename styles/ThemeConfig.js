@@ -15,4 +15,5 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.text};
   }
+ 
 `;

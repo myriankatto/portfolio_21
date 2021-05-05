@@ -21,8 +21,8 @@
     display: flex;
     justify-content: space-around;
     margin-top: 4em;
-    z-index: 99;
     .list {
+      z-index: 99;
       display: flex;
       flex-direction: column;
       width: 50px;

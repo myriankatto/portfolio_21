@@ -7,15 +7,14 @@ const About = () => {
     <div className={AboutStyles.container}>
       <div className={AboutStyles.content}>
         <div className={AboutStyles.text}>
-          <h5>Hi, I'm Myrian 🦄</h5>
+          <h5>Hi, I'm Myrian</h5>
           <p>
-            I'm a <strong>Japanese-Brazilian Barcelona-based Front-end Developer</strong> with a
+            I'm a Japanese-Brazilian Front-end Developer based in Barcelona with a
             Graphic Design background. I'm interested in human-centered development and{' '}
             <strong>I want to make the web easy to use, beautiful and accessible to all.</strong>
           </p>
           <p>
-            My main focus these days is building accessible and design-minded products and digital
-            experiences. My interest in web development started back in 2020 after working with
+           My interest in web development started back in 2020 after working with
             graphic design for about 8 years.
           </p>
           <p>

@@ -27,7 +27,7 @@ export const experiencesList = [
     id: 3,
     title: 'Sebrae',
     jobtitle: 'Senior Graphic Designer',
-    date: '2018-2019',
+    date: '2018 - 2019',
     role: [
       'Worked with designers to create, document, and design the Entrepreneur Fair communication.',
       'Collaborated to produce learning materials to support micro and small enterprises.',
@@ -39,7 +39,7 @@ export const experiencesList = [
     id: 4,
     title: 'Inker',
     jobtitle: 'Senior Graphic Designer',
-    date: '2017-2018',
+    date: '2017 - 2018',
     role: [
       'Worked with a team of content creators, writers, and social media professionals to build and structure communication materials for a diversified array of Brazilian musicians and bands.',
       'Helped solidify a creative brand direction for each client.',
@@ -50,7 +50,7 @@ export const experiencesList = [
     id: 5,
     title: 'Unimed',
     jobtitle: 'Junior Graphic Designer',
-    date: '2013-2014',
+    date: '2013 - 2014',
     role: [
       'Designed types of marketing materials such as brochures, flyers, newsletters, posters, events materials, respecting the brand identity.',
       'Prepared design mock-ups and presentations.',
@@ -59,7 +59,7 @@ export const experiencesList = [
   },
   {
     id: 6,
-    title: 'UDESC',
+    title: 'Udesc',
     jobtitle: "Graphic Design Bachelor's Degree",
     date: '2007 - 2012',
     role: [

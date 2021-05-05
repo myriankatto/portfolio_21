@@ -2,14 +2,15 @@ import React from 'react';
 import FooterStyles from '../styles/Footer.module.scss';
 import Button from '../components/Button';
 
-const Footer = () => {
+const Footer = ({ theme }) => {
+ 
   return (
     <div className={FooterStyles.container}>
       <div></div>
       <div>
         <h4>Let's talk?</h4>
         <a href="https://calendly.com/myriankatto" target="_blank">
-          <Button title="Schedule Here" />
+          <Button title="Schedule Here" theme={theme} />
         </a>
       </div>
       <footer className={FooterStyles.footer}>
