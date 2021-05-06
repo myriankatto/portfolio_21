@@ -9,23 +9,18 @@ import Loader from '../components/Loader';
 
 function MyApp({ Component, pageProps }) {
   const [theme, setTheme] = useState('dark');
-  const [loading, setLoading] = useState(false);
 
   
   const toggleTheme = () => {
-    // setLoading(true);
     theme == 'light' ? setTheme('dark') : setTheme('light');
-    // const timer = setTimeout(() => {
-    //   setLoading(false);
-    // }, 1000);
-    // return () => clearTimeout(timer);
+
   };
 
   return (
     <ThemeProvider theme={theme == 'light' ? lightTheme : darkTheme}>
       <GlobalStyles />
       <Nav toggleTheme={toggleTheme} theme={theme} />
-      {loading ? <Loader /> : <Component {...pageProps} theme={theme} />}
+      <Component {...pageProps} theme={theme} />
     </ThemeProvider>
   );
 }

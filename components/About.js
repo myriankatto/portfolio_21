@@ -9,13 +9,15 @@ const About = () => {
         <div className={AboutStyles.text}>
           <h5>Hi, I'm Myrian</h5>
           <p>
-            I'm a Japanese-Brazilian Front-end Developer based in Barcelona with a
-            Graphic Design background. I'm interested in human-centered development and{' '}
+            I'm a Japanese-Brazilian Front-end Developer with a Graphic Design background.
+          </p>{' '}
+          <p>
+            I'm interested in human-centered accessible and creative development,{' '}
             <strong>I want to make the web easy to use, beautiful and accessible to all.</strong>
           </p>
           <p>
-           My interest in web development started back in 2020 after working with
-            graphic design for about 8 years.
+            My interest in web development started back in 2020 after working with graphic design
+            for about 8 years.
           </p>
           <p>
             In my free time, you can find me enjoying the beach 🏝 in Barcelona, experimenting a new

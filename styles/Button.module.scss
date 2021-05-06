@@ -2,15 +2,40 @@
   border: 1px solid;
   padding: 1em 2em;
   border-radius: 5px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 100;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 9999;
   font-weight: 300;
-  img {
-    margin-left: 1em;
+  &:hover {
+    background: #82828219;
+    transition: all 0.5s ease-in;
+  }
+}
+
+.arrow {
+  margin: 1em 0;
+
+  &::after {
+    display: inline-block;
+    padding-left: 1px;
+    content: '\27F6'; // arrow right unicode
+    -webkit-transition: transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out;
+    -ms-transition: transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+  }
+
+  &:hover {
+    &::after {
+      -webkit-transform: translateX(10px);
+      -moz-transform: translateX(10px);
+      -ms-transform: translateX(10px);
+      -o-transform: translateX(10px);
+      transform: translateX(10px);
+    }
   }
 }

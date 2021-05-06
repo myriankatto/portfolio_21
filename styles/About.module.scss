@@ -14,21 +14,20 @@
     margin-top: 2em;
     .text {
       width: 50%;
+
       h5 {
         font-family: 'Noe Display Bold', serif;
         font-size: 3em;
         margin-bottom: 0.2em;
       }
       p {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Archivo', sans-serif;
         font-size: 1em;
         font-weight: 300;
         line-height: 1.6em;
         margin-bottom: 1em;
       }
-      strong {
-        font-weight: 500;
-      }
+
       .technologies {
         display: flex;
         margin-top: -1.5em;
@@ -37,9 +36,9 @@
             margin-left: -1.5em;
           }
           li {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Archivo', sans-serif;
             font-weight: 300;
-            font-size: .9em;
+            font-size: 0.9em;
             line-height: 1em;
             margin: 0.5em 0;
             list-style: circle;
@@ -52,7 +51,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      z-index:999;
+      z-index: 999;
     }
   }
 }

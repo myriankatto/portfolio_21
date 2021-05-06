@@ -17,8 +17,7 @@ const Header = () => {
         </h1>
       </div>
       <div className={HeaderStyles.arrow}>
-        <span>Featured Projects</span>
-        <ChevronDown size={20} />
+        <ChevronDown size={30} /> 
       </div>
     </div>
   );

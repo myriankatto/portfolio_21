@@ -22,7 +22,7 @@ export default function Home({ theme }) {
       <Header />
       <Experience />
       <About />
-      <Footer theme={theme} />
+      <Footer/>
     </div>
   );
 }

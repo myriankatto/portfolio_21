@@ -2,14 +2,14 @@
   width: 100vw;
   position: fixed;
   top: 0;
-  z-index: 999;
- 
+  z-index: 9999;
+
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 2em 3em;
+    padding: 1em 6em;
 
     svg {
       &:hover {
@@ -20,6 +20,10 @@
     .logo {
       font-family: 'Noe Display Medium';
       font-size: 1.2em;
+      &:hover {
+        opacity: 0.8;
+        transition: 0.3 ease-in all;
+      }
     }
     .theme {
       cursor: pointer;

@@ -5,8 +5,7 @@ const Loader = () => {
   return (
     <div className={LoaderStyles.loader}>
       <div className={LoaderStyles.spinner_box}>
-        <div className={LoaderStyles.three_quarter_spinner}>
-        </div>
+        <div className={LoaderStyles.three_quarter_spinner}></div>
       </div>
     </div>
   );

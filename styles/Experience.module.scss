@@ -5,14 +5,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 6em;
+  padding: 0 10em;
   h5 {
     font-family: 'Noe Display Bold', serif;
     font-size: 3em;
     margin-bottom: 0.2em;
   }
   span {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Archivo', sans-serif;
     font-size: 1em;
     font-weight: 300;
   }
@@ -33,23 +33,22 @@
         color: inherit;
         margin: 0.5em 0;
         font-size: 1.2em;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Archivo', sans-serif;
         font-weight: 300;
         padding-left: 1em;
         text-align: left;
         &:active,
         &:focus {
           border-left: 2px solid;
-          font-weight: 400;
+          font-weight: 500;
         }
         &:hover {
-      
           transition: all 0.3s ease-in;
-          font-weight: 400;
+          font-weight: 500;
         }
       }
       .active {
-        border-left: 2px solid;
+        border-left: px solid;
         font-weight: 400;
       }
     }
@@ -57,24 +56,24 @@
       width: 70%;
       margin-top: 0.5em;
       h6 {
-        font-family: 'Noe Display Bold', serif;
+        font-family: 'Archivo', sans-serif;
+        font-weight: 700;
         font-size: 1.4em;
         margin-bottom: 0.2em;
       }
       p {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Archivo', sans-serif;
         font-weight: 300;
-        font-size: 1em;
+        font-size: 1.1em;
       }
       ul {
         margin-left: -1.5em;
-        margin-top: 2em;
         li {
-          font-family: 'Roboto', sans-serif;
+          font-family: 'Archivo', sans-serif;
           font-weight: 300;
-          font-size: 1em;
+          font-size: 1.1em;
           line-height: 1.5em;
-          margin: 1em 0;
+          margin: .8em 0;
           list-style: circle;
         }
       }
