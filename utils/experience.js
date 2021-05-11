@@ -19,7 +19,7 @@ export const experiencesList = [
     role: [
       'Learned to develop full-stack complex apps, with an advanced understanding of JavaScript.',
       'Acquired the fundamentals of programming, with a big emphasis on dry code and best practices.',
-      'Earned experience in several technologies and stacks.',
+      'Earned experience in several technologies and stacks, such as the core concepts of object-oriented programming, DOM manipulation and version control.',
       'Collaborated with teams to develop awesome projects.',
     ],
   },

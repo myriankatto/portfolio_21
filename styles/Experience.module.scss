@@ -19,13 +19,13 @@
   .content {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 4em;
     .list {
-      z-index: 99;
+      z-index: 99999;
       display: flex;
       flex-direction: column;
-      width: 50px;
+      width: 18%;
       button {
         background: transparent;
         border: none;
@@ -35,7 +35,8 @@
         font-size: 1.2em;
         font-family: 'Archivo', sans-serif;
         font-weight: 300;
-        padding-left: 1em;
+        padding-left: 0.5em;
+        padding-top: 0.2em;
         text-align: left;
         &:active,
         &:focus {
@@ -48,8 +49,9 @@
         }
       }
       .active {
-        border-left: px solid;
+        border-left: 2px solid;
         font-weight: 400;
+        font-family: 'Noe Display Bold', serif;
       }
     }
     .experience {
@@ -73,8 +75,80 @@
           font-weight: 300;
           font-size: 1.1em;
           line-height: 1.5em;
-          margin: .8em 0;
+          margin: 0.8em 0;
           list-style: circle;
+        }
+      }
+    }
+  }
+}
+
+//big screens
+@media screen and (min-width: 1500px) {
+  .container {
+    padding: 0 20em;
+    .content {
+      .list {
+        width: 15%;
+      }
+    }
+  }
+}
+
+//mobile
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 1em;
+    h5 {
+      font-size: 2em;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      .list {
+        z-index: 99999;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        overflow-x: auto;
+        button {
+          background: transparent;
+          border: none;
+          cursor: pointer;
+          color: inherit;
+          margin: 0.5em 0;
+          font-size: 1.2em;
+          font-family: 'Archivo', sans-serif;
+          font-weight: 300;
+          padding-left: 0em;
+          padding-right: 2em;
+          padding-top: 0.2em;
+          margin-bottom: 2em;
+          text-align: left;
+          &:active,
+          &:focus {
+            border-left: none;
+            font-weight: 500;
+          }
+        }
+        .active {
+          border-left: none;
+          font-weight: 400;
+          font-family: 'Archivo', sans-serif;
+        }
+      }
+      .experience {
+        width: 100%;
+        h6 {
+          font-size: 1.2em;
+        }
+        p {
+          font-size: 1em;
+        }
+        ul {
+          li {
+            font-size: 1em;
+          }
         }
       }
     }

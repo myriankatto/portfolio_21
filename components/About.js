@@ -12,11 +12,11 @@ const About = () => {
             I'm a Japanese-Brazilian Front-end Developer with a Graphic Design background.
           </p>{' '}
           <p>
-            I'm interested in human-centered accessible and creative development,{' '}
-            <strong>I want to make the web easy to use, beautiful and accessible to all.</strong>
+            I'm interested in human-centered, accessible and creative design and development,
+            <strong> I want to make the web easy to use, beautiful and accessible to all.</strong>
           </p>
           <p>
-            My interest in web development started back in 2020 after working with graphic design
+            My interest in development started back in 2020 after working with graphic design
             for about 8 years.
           </p>
           <p>

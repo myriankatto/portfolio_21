@@ -35,3 +35,40 @@
     }
   }
 }
+
+//big screens
+@media screen and (min-width: 1500px) {
+  .container {
+    padding: 0 10em;
+    .text {
+      h6 {
+        font-size: 1.2vw;
+      }
+      h1 {
+        font-size: 5vw;
+      }
+    }
+  }
+}
+
+//mobile
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 1em;
+    height: auto;
+    margin-bottom: 4em;
+    .text {
+      h6 {
+        font-family: 'Archivo', sans-serif;
+        font-weight: 300;
+        font-size: 4vw;
+        margin-bottom: 1em;
+      }
+      h1 {
+        font-family: 'Noe Display Bold';
+        font-size: 10vw;
+        line-height: 1em;
+      }
+    }
+  }
+}

@@ -16,9 +16,9 @@ const Header = () => {
           experiences.
         </h1>
       </div>
-      <div className={HeaderStyles.arrow}>
+      {/* <div className={HeaderStyles.arrow}>
         <ChevronDown size={30} /> 
-      </div>
+      </div> */}
     </div>
   );
 };

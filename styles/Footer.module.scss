@@ -7,7 +7,7 @@
   align-items: center;
   padding: 2em 0;
   .schedule {
-    z-index: 999;
+    z-index: 99999;
     h4 {
       font-family: 'Noe Display Bold', serif;
       font-size: 4em;
@@ -16,7 +16,8 @@
     }
   }
   .footer {
-    z-index: 99;
+    z-index: 99999;
+
     p {
       text-align: center;
       font-family: 'Archivo', sans-serif;

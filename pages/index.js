@@ -3,6 +3,10 @@ import React from 'react';
 import Header from '../components/Header';
 import Experience from '../components/Experience';
 import About from '../components/About';
+import Newton from '../components/Newton';
+import Imagible from '../components/Imagible';
+import Wasabi from '../components/Wasabi';
+import Planteria from '../components/Planteria';
 import Footer from '../components/Footer';
 import styles from '../styles/Styles.module.scss';
 
@@ -20,9 +24,13 @@ export default function Home({ theme }) {
         ></iframe>
       </div>
       <Header />
-      <Experience />
       <About />
-      <Footer/>
+      <Newton />
+      <Imagible />
+      <Planteria />
+      <Wasabi />
+      <Experience />
+      <Footer />
     </div>
   );
 }

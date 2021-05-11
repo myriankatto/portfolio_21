@@ -1,0 +1,184 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+  iframe {
+    z-index: 99999;
+  }
+  .images {
+    display: flex;
+  }
+  .mobile_images {
+    display: none;
+  }
+  .image {
+    z-index: 999;
+  }
+
+  h1 {
+    font-family: 'Noe Display Bold';
+    font-size: 6vw;
+    z-index: -999;
+  }
+  p {
+    width: 30%;
+    font-family: 'Archivo';
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .icons {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    z-index: 999999;
+    margin-top: 1.2em;
+    span {
+      margin: 0 0.5em;
+    }
+  }
+
+  /* START TOOLTIP STYLES */
+  [tooltip] {
+    position: relative; /* opinion 1 */
+  }
+
+  /* Applies to all tooltips */
+  [tooltip]::before,
+  [tooltip]::after {
+    text-transform: none; /* opinion 2 */
+    font-size: 0.9em; /* opinion 3 */
+    line-height: 1;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    display: none;
+    opacity: 0;
+  }
+  [tooltip]::before {
+    content: '';
+    border: 5px solid transparent; /* opinion 4 */
+    z-index: 1001; /* absurdity 1 */
+  }
+  [tooltip]::after {
+    content: attr(tooltip); /* magic! */
+
+    /* most of the rest of this is opinion */
+    text-align: center;
+
+    /* 
+    Let the content set the size of the tooltips 
+    but this will also keep them from being obnoxious
+    */
+    min-width: 3em;
+    max-width: 21em;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Archivo';
+    font-weight: 300;
+    font-size: 0.7em;
+    text-align: center;
+    color: #828282;
+    z-index: 1000; /* absurdity 2 */
+  }
+
+  /* Make the tooltips respond to hover */
+  [tooltip]:hover::before,
+  [tooltip]:hover::after {
+    display: block;
+  }
+
+  /* don't show empty tooltips */
+  [tooltip='']::before,
+  [tooltip='']::after {
+    display: none !important;
+  }
+
+  /* FLOW: UP */
+  [tooltip]:not([flow])::before,
+  [tooltip][flow^='up']::before {
+    bottom: 100%;
+    border-bottom-width: 0;
+  }
+  [tooltip]:not([flow])::after,
+  [tooltip][flow^='up']::after {
+    bottom: calc(100% + 5px);
+  }
+  [tooltip]:not([flow])::before,
+  [tooltip]:not([flow])::after,
+  [tooltip][flow^='up']::before,
+  [tooltip][flow^='up']::after {
+    left: 50%;
+    transform: translate(-50%, -0.5em);
+  }
+
+  /* KEYFRAMES */
+  @keyframes tooltips-vert {
+    to {
+      opacity: 0.9;
+      transform: translate(-50%, 0);
+    }
+  }
+
+  @keyframes tooltips-horz {
+    to {
+      opacity: 0.9;
+      transform: translate(0, -50%);
+    }
+  }
+
+  /* FX All The Things */
+  [tooltip]:not([flow]):hover::before,
+  [tooltip]:not([flow]):hover::after,
+  [tooltip][flow^='up']:hover::before,
+  [tooltip][flow^='up']:hover::after {
+    animation: tooltips-vert 300ms ease-out forwards;
+  }
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+    div {
+      margin-left: 1em;
+    }
+  }
+}
+
+//big screens
+@media screen and (min-width: 1500px) {
+  .container {
+    h1 {
+      font-size: 4vw;
+    }
+    p {
+      width: 22%;
+    }
+  }
+}
+
+//mobile
+@media screen and (max-width: 768px) {
+  .container {
+    height: auto;
+    h1 {
+      font-size: 9vw;
+      margin-top: -2em;
+    }
+    p {
+      width: 90%;
+    }
+    .images {
+      display: none;
+    }
+    .mobile_images {
+      display: flex;
+    }
+  }
+}

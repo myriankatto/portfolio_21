@@ -13,6 +13,7 @@
     background: #82828219;
     transition: all 0.5s ease-in;
   }
+
 }
 
 .arrow {
@@ -20,7 +21,7 @@
 
   &::after {
     display: inline-block;
-    padding-left: 1px;
+    padding-left: 10px;
     content: '\27F6'; // arrow right unicode
     -webkit-transition: transform 0.3s ease-out;
     -moz-transition: transform 0.3s ease-out;

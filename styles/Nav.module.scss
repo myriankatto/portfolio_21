@@ -2,7 +2,7 @@
   width: 100vw;
   position: fixed;
   top: 0;
-  z-index: 9999;
+  z-index: 999999;
 
   .container {
     display: flex;
@@ -36,4 +36,22 @@
       }
     }
   }
+}
+
+//big screens
+@media screen and (min-width: 1500px) {
+  .nav {
+    .container {
+      padding: 2em 10em;
+    }
+  }
+}
+
+//mobile
+@media screen and (max-width: 768px) {
+  .nav {
+    .container {
+      padding: 1em 1em;
+  }
+}
 }
