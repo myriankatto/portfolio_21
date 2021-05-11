@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 
 import Header from '../components/Header';
 import Experience from '../components/Experience';
@@ -13,6 +14,37 @@ import styles from '../styles/Styles.module.scss';
 export default function Home({ theme }) {
   return (
     <div>
+      <Head>
+        <title>Myrian Katto | Front-end Developer</title>
+        <meta name="title" content="Myrian Katto" />
+        <meta
+          name="description"
+          content="Front-end Developer based in Barcelona."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://myriankatto.com" />
+        <meta property="og:title" content="Myrian Katto" />
+        <meta
+          property="og:description"
+          content="Front-end Developer based in Barcelona."
+        />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/9G0snX6/Frame-3-1.png"
+        />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://myriankatto.com" />
+        <meta property="twitter:title" content="Myrian Katto" />
+        <meta
+          property="twitter:description"
+          content="Front-end Developer based in Barcelona."
+        />
+        <meta
+          property="twitter:image"
+          content="https://i.ibb.co/9G0snX6/Frame-3-1.png"
+        />
+      </Head>
       <div className={styles.spline}>
         <iframe
           src={

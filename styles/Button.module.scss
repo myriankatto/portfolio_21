@@ -2,13 +2,14 @@
   border: 1px solid;
   padding: 1em 2em;
   border-radius: 5px;
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 100;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-weight: 300;
+  height: 50px;
   &:hover {
     background: #82828219;
     transition: all 0.5s ease-in;
