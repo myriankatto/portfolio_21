@@ -4,10 +4,9 @@ import Button from './Button';
 import Image from 'next/image';
 
 import { SiJavascript, SiHtml5, SiCss3 } from 'react-icons/si';
-import { AiOutlineAntDesign } from 'react-icons/ai';
 import { Parallax } from 'react-scroll-parallax';
 
-const Projects = () => {
+const Wasabi = () => {
   return (
     <div className={ProjectsStyles.container}>
       <div className={ProjectsStyles.mobile_images}>
@@ -49,4 +48,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Wasabi;

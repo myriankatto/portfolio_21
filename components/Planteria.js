@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { SiReact, SiTypescript, SiExpo } from 'react-icons/si';
 import { Parallax } from 'react-scroll-parallax';
 
-const Projects = () => {
+const Planteria = () => {
   return (
     <div className={ProjectsStyles.container}>
       <div className={ProjectsStyles.mobile_images} style={{ marginBottom: '3em' }}>
@@ -54,4 +54,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Planteria;
