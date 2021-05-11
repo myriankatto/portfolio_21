@@ -1,9 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faSun, faMoon } from '@fortawesome/fontawesome-free-solid';
 
+import { FaSun, FaMoon, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 import NavStyles from '../styles/Nav.module.scss';
 
 const Nav = ({ theme, toggleTheme }) => {
@@ -14,17 +13,17 @@ const Nav = ({ theme, toggleTheme }) => {
           <Link href="/">myriankatto</Link>
         </div>
         <div className={NavStyles.theme} onClick={toggleTheme}>
-          {theme === 'dark' ? <FontAwesomeIcon icon={faSun} /> : <FontAwesomeIcon icon={faMoon} />}
+          {theme === 'dark' ? <FaSun /> : <FaMoon />}
         </div>
         <div className={NavStyles.links}>
           <a href="https://github.com/myriankatto" target="_blank">
-            <FontAwesomeIcon icon={faGithub} />
+            <FaGithub />
           </a>
           <a href="https://www.linkedin.com/in/myrian-katto-2792a921/" target="_blank">
-            <FontAwesomeIcon icon={faLinkedin} />{' '}
+            <FaLinkedin />
           </a>
           <a href="mailto:myriankatto@gmail.com" target="_blank">
-            <FontAwesomeIcon icon={faEnvelope} />{' '}
+            <MdEmail />
           </a>
         </div>
       </div>
