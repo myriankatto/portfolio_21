@@ -9,7 +9,7 @@ const About = () => {
         <div className={AboutStyles.text}>
           <h5>Hi, I'm Myrian</h5>
           <p>
-            I'm a Japanese-Brazilian Front-end Developer with a Graphic Design background.
+            I'm a Japanese-Brazilian frontend developer with a graphic design background.
           </p>{' '}
           <p>
             I'm interested in human-centered, accessible and creative design and development,

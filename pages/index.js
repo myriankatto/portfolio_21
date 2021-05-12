@@ -15,11 +15,11 @@ export default function Home({ theme }) {
   return (
     <div>
       <Head>
-        <title>Myrian Katto | Front-end Developer</title>
+        <title>Myrian Katto</title>
         <meta name="title" content="Myrian Katto" />
         <meta
           name="description"
-          content="Front-end Developer based in Barcelona."
+          content="Frontend Developer based in Barcelona."
         />
 
         <meta property="og:type" content="website" />
@@ -27,7 +27,7 @@ export default function Home({ theme }) {
         <meta property="og:title" content="Myrian Katto" />
         <meta
           property="og:description"
-          content="Front-end Developer based in Barcelona."
+          content="Frontend developer based in Barcelona."
         />
         <meta
           property="og:image"
@@ -38,7 +38,7 @@ export default function Home({ theme }) {
         <meta property="twitter:title" content="Myrian Katto" />
         <meta
           property="twitter:description"
-          content="Front-end Developer based in Barcelona."
+          content="Frontend developer based in Barcelona."
         />
         <meta
           property="twitter:image"
