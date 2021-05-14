@@ -48,7 +48,9 @@ const Planteria = () => {
         <a href="https://github.com/myriankatto/planteria" target="_blank">
           <Button title="Github" github />
         </a>
-        <Button title="Project" />
+        <a href="https://expo.io/@myriankatto/projects/planteria" target="_blank">
+          <Button title="Project" />
+        </a>
       </div>
     </div>
   );
