@@ -16,7 +16,6 @@ import styles from '../styles/Styles.module.scss';
 export default function Home({ theme }) {
   const [loadSpline, setLoadSpline] = useState(false);
 
-
   useEffect(() => {
     let timer1 = setTimeout(() => setLoadSpline(true), 100);
 
@@ -25,14 +24,13 @@ export default function Home({ theme }) {
     };
   }, []);
 
-  
   return (
-   
     <div>
       <Head>
         <title>Myrian Katto</title>
         <meta name="title" content="Myrian Katto" />
         <meta name="description" content="Frontend Developer based in Barcelona." />
+        <meta name=" theme-color" content="#232323" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://myriankatto.com" />
@@ -44,6 +42,8 @@ export default function Home({ theme }) {
         <meta property="twitter:title" content="Myrian Katto" />
         <meta property="twitter:description" content="Frontend developer based in Barcelona." />
         <meta property="twitter:image" content="https://i.ibb.co/9G0snX6/Frame-3-1.png" />
+
+        <link rel="apple-touch-icon" href="/favicon.ico" />
       </Head>
       {loadSpline && (
         <div className={styles.spline}>
@@ -67,6 +67,5 @@ export default function Home({ theme }) {
       <Experience />
       <Footer />
     </div>
-   
   );
 }
