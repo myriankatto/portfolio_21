@@ -9,7 +9,7 @@ const Footer = () => {
     <div className={FooterStyles.container}>
       <div></div>
       <div className={FooterStyles.schedule}>
-        <h4>Let's talk?</h4>
+        <p>Let's talk?</p>
         <a href="mailto:myriankatto@gmail.com" target="_blank" rel="noreferrer">
           <span>myriankatto@gmail.com</span>
         </a>
