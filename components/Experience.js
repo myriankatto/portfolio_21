@@ -40,9 +40,9 @@ const Experience = () => {
         </div>
         {experienceDetail.length > 0 && (
           <div className={ExperienceStyles.experience}>
-            <h6>
+            <span>
               {experienceDetail[0].jobtitle} @ {experienceDetail[0].title}
-            </h6>
+            </span>
             <p>{experienceDetail[0].date}</p>
             <ul>
               {experienceDetail[0].role.map((x) => {
