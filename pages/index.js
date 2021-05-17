@@ -34,14 +34,14 @@ export default function Home({ theme }) {
         <meta property="twitter:image" content="https://i.ibb.co/9G0snX6/Frame-3-1.png" />
       </Head>
       <div className={styles.spline}>
-        {/* <iframe
+        <iframe
           src={
             theme === 'dark'
               ? 'https://my.spline.design/spline-d9e6800a4821d222a1d6a2d46a7d072c/'
               : 'https://my.spline.design/splinecopy-6ff8d48cfa08c095381aef44bb6653f8/'
           }
           frameborder="0"
-        ></iframe> */}
+        ></iframe>
       </div>
       <Header />
       <About />
