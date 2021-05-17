@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { ThemeProvider } from 'styled-components';
 import dynamic from 'next/dynamic';
 
+import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme, GlobalStyles } from '../styles/ThemeConfig';
-import '../styles/globals.css';
 import { ParallaxProvider } from 'react-scroll-parallax';
+
+import '../styles/globals.css';
 
 const Nav = dynamic(() => import('../components/Nav'));
 
@@ -14,6 +15,10 @@ function MyApp({ Component, pageProps }) {
   const toggleTheme = () => {
     theme == 'light' ? setTheme('dark') : setTheme('light');
   };
+
+  useEffect(() => {
+    document.documentElement.lang = 'en-us';
+  });
 
   return (
     <ThemeProvider theme={theme == 'light' ? lightTheme : darkTheme}>
