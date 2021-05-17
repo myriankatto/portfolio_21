@@ -45,10 +45,10 @@ const Imagible = () => {
       </div>
 
         <div className={ProjectsStyles.bottom}>
-          <a href="https://github.com/myriankatto/imagible" target="_blank">
+          <a href="https://github.com/myriankatto/imagible" target="_blank" rel="noreferrer">
             <Button title="Github" github />
           </a>
-          <a href="https://imagible.app" target="_blank">
+          <a href="https://imagible.app" target="_blank" rel="noreferrer">
             <Button title="Project" />
           </a>
         </div>

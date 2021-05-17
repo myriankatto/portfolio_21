@@ -16,13 +16,18 @@ const Nav = ({ theme, toggleTheme }) => {
           {theme === 'dark' ? <FaSun /> : <FaMoon />}
         </div>
         <div className={NavStyles.links}>
-          <a href="https://github.com/myriankatto" target="_blank">
+          <a title="github" href="https://github.com/myriankatto" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/myrian-katto-2792a921/" target="_blank">
+          <a
+            title="linkedin"
+            href="https://www.linkedin.com/in/myrian-katto-2792a921/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaLinkedin />
           </a>
-          <a href="mailto:myriankatto@gmail.com" target="_blank">
+          <a title="email" href="mailto:myriankatto@gmail.com" target="_blank" rel="noreferrer">
             <MdEmail />
           </a>
         </div>

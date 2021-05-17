@@ -46,7 +46,7 @@ const Newton = () => {
       </div>
 
       <div className={ProjectsStyles.bottom}>
-        <a href="https://newton.ai" target="_blank">
+        <a href="https://newton.ai" target="_blank" rel="noreferrer">
           <Button title="View Newton" />
         </a>
       </div>

@@ -45,10 +45,10 @@ const Planteria = () => {
       </div>
 
       <div className={ProjectsStyles.bottom}>
-        <a href="https://github.com/myriankatto/planteria" target="_blank">
+        <a href="https://github.com/myriankatto/planteria" target="_blank" rel="noreferrer">
           <Button title="Github" github />
         </a>
-        <a href="https://expo.io/@myriankatto/projects/planteria" target="_blank">
+        <a href="https://expo.io/@myriankatto/projects/planteria" target="_blank" rel="noreferrer">
           <Button title="Project" />
         </a>
       </div>

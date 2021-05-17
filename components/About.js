@@ -7,7 +7,7 @@ const About = () => {
     <div className={AboutStyles.container}>
       <div className={AboutStyles.content}>
         <div className={AboutStyles.text}>
-          <h5>Hi, I'm Myrian</h5>
+          <span>Hi, I'm Myrian</span>
           <p>
             I'm a Japanese-Brazilian frontend developer with a graphic design background.
           </p>{' '}

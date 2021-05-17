@@ -37,10 +37,10 @@ const Wasabi = () => {
       </div>
 
       <div className={ProjectsStyles.bottom}>
-        <a href="https://github.com/myriankatto/wasabi" target="_blank">
+        <a href="https://github.com/myriankatto/wasabi" target="_blank" rel="noreferrer">
           <Button title="Github" github />
         </a>
-        <a href="https://dontfeedwasabi.netlify.app/" target="_blank">
+        <a href="https://dontfeedwasabi.netlify.app/" target="_blank" rel="noreferrer">
           <Button title="Project" />
         </a>
       </div>

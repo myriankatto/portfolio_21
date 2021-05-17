@@ -10,10 +10,10 @@ const Footer = () => {
       <div></div>
       <div className={FooterStyles.schedule}>
         <h4>Let's talk?</h4>
-        <a href="mailto:myriankatto@gmail.com" target="_blank">
+        <a href="mailto:myriankatto@gmail.com" target="_blank" rel="noreferrer">
           <span>myriankatto@gmail.com</span>
         </a>
-        <a href="https://calendly.com/myriankatto" target="_blank">
+        <a href="https://calendly.com/myriankatto" target="_blank" rel="noreferrer">
           <Button title="Schedule Here" />
         </a>
       </div>
@@ -21,11 +21,11 @@ const Footer = () => {
         <p>Myrian Katto @ 2021</p>
         <p>
           Developed with{' '}
-          <a href="https://reactjs.org" target="_blank">
+          <a href="https://reactjs.org" target="_blank" rel="noreferrer">
             React
           </a>{' '}
           and{' '}
-          <a href="https://nextjs.org" target="_blank">
+          <a href="https://nextjs.org" target="_blank" rel="noreferrer">
             Next
           </a>
         </p>
