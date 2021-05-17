@@ -30,7 +30,6 @@ export default function Home({ theme }) {
         <title>Myrian Katto</title>
         <meta name="title" content="Myrian Katto" />
         <meta name="description" content="Frontend Developer based in Barcelona." />
-        <meta name=" theme-color" content="#232323" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://myriankatto.com" />
@@ -46,6 +45,7 @@ export default function Home({ theme }) {
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
         <meta name="apple-mobile-web-app-status-bar" content="#232323" />
+        <meta name=" theme-color" content="#232323" />
 
       </Head>
       {loadSpline && (
