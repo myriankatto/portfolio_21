@@ -43,7 +43,10 @@ export default function Home({ theme }) {
         <meta property="twitter:description" content="Frontend developer based in Barcelona." />
         <meta property="twitter:image" content="https://i.ibb.co/9G0snX6/Frame-3-1.png" />
 
+        <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
+        <meta name="apple-mobile-web-app-status-bar" content="#232323" />
+
       </Head>
       {loadSpline && (
         <div className={styles.spline}>
