@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   padding: 0 10em;
-  h5 {
+  h2 {
     font-family: 'Noe Display Bold', serif;
     font-size: 3em;
     margin-bottom: 0.2em;
@@ -98,7 +98,7 @@
 @media screen and (max-width: 768px) {
   .container {
     padding: 0 1em;
-    h5 {
+    h2 {
       font-size: 2em;
     }
     .content {

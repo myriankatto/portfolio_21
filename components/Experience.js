@@ -19,7 +19,7 @@ const Experience = () => {
 
   return (
     <div className={ExperienceStyles.container}>
-      <h5>Experience</h5>
+      <h2>Experience</h2>
       <span>Work & Study</span>
       <div className={ExperienceStyles.content}>
         <div className={ExperienceStyles.list}>

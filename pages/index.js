@@ -16,6 +16,7 @@ import styles from '../styles/Styles.module.scss';
 export default function Home({ theme }) {
   return (
     <div>
+      <html lang="en" />
       <Head>
         <title>Myrian Katto</title>
         <meta name="title" content="Myrian Katto" />
