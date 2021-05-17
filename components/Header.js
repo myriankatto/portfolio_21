@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className={HeaderStyles.container}>
       <div className={HeaderStyles.text}>
-        <h6>Hi, I’m Myrian!</h6>
+        <p>Hi, I’m Myrian!</p>
         <h1>
           I develop <br />
           <Cycler duration={4000} strings={strings} /> <br />

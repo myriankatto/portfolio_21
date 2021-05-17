@@ -1,6 +1,8 @@
 import React from 'react';
+import dynamic from 'next/dynamic';
 import FooterStyles from '../styles/Footer.module.scss';
-import Button from '../components/Button';
+
+const Button = dynamic(() => import('../components/Button'));
 
 const Footer = () => {
   return (
@@ -9,7 +11,7 @@ const Footer = () => {
       <div className={FooterStyles.schedule}>
         <h4>Let's talk?</h4>
         <a href="mailto:myriankatto@gmail.com" target="_blank">
-          <h6>myriankatto@gmail.com</h6>
+          <span>myriankatto@gmail.com</span>
         </a>
         <a href="https://calendly.com/myriankatto" target="_blank">
           <Button title="Schedule Here" />

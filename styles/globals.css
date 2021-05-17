@@ -4,10 +4,12 @@
 @font-face {
   font-family: 'Noe Display Medium';
   src: url('/fonts/Noe-Display-Medium.ttf');
+  font-display: swap
 }
 @font-face {
   font-family: 'Noe Display Bold';
   src: url('/fonts/Noe-Display-Bold.ttf');
+  font-display: swap
 }
 
 html,
