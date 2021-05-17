@@ -14,16 +14,21 @@ const Footer = dynamic(() => import('../components/Footer'));
 import styles from '../styles/Styles.module.scss';
 
 export default function Home({ theme }) {
-  const [loadSpline, setLoadSpline] = useState(false);
-  const delay = 2;
+  // const [loadSpline, setLoadSpline] = useState(false);
+  // const delay = 1;
+
+  // useEffect(() => {
+  //   let timer1 = setTimeout(() => setLoadSpline(true), delay * 1000);
+
+  //   return () => {
+  //     clearTimeout(timer1);
+  //   };
+  // }, []);
 
   useEffect(() => {
-    let timer1 = setTimeout(() => setLoadSpline(true), delay * 1000);
-
-    return () => {
-      clearTimeout(timer1);
-    };
-  }, []);
+    document.documentElement.lang = "en-us";
+  });
+  
   return (
    
     <div>
@@ -43,7 +48,7 @@ export default function Home({ theme }) {
         <meta property="twitter:description" content="Frontend developer based in Barcelona." />
         <meta property="twitter:image" content="https://i.ibb.co/9G0snX6/Frame-3-1.png" />
       </Head>
-      {loadSpline && (
+      {/* {loadSpline && ( */}
         <div className={styles.spline}>
           <iframe
             src={
@@ -52,9 +57,10 @@ export default function Home({ theme }) {
                 : 'https://my.spline.design/splinecopy-6ff8d48cfa08c095381aef44bb6653f8/'
             }
             frameBorder="0"
+            title="spline"
           ></iframe>
         </div>
-      )}
+      {/* )} */}
       <Header />
       <About />
       <Newton />
