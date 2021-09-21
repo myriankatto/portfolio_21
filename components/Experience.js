@@ -3,7 +3,7 @@ import ExperienceStyles from '../styles/Experience.module.scss';
 import { experiencesList } from '../utils/experience';
 
 const Experience = () => {
-  const [selectedExperience, setSelectedExperience] = useState('Newton');
+  const [selectedExperience, setSelectedExperience] = useState('Xapo Bank');
   const [experienceDetail, setExperienceDetail] = useState({});
 
   const handleSelect = (e) => {
