@@ -21,7 +21,7 @@ const Nav = ({ theme, toggleTheme }) => {
           </a>
           <a
             title="linkedin"
-            href="https://www.linkedin.com/in/myrian-katto-2792a921/"
+            href="https://www.linkedin.com/in/myriankatto"
             target="_blank"
             rel="noreferrer"
           >
