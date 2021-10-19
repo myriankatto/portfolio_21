@@ -48,7 +48,7 @@ const Imagible = () => {
           <a href="https://github.com/myriankatto/imagible" target="_blank" rel="noreferrer">
             <Button title="Github" github />
           </a>
-          <a href="https://imagible.app" target="_blank" rel="noreferrer">
+          <a href="https://imagible.herokuapp.com" target="_blank" rel="noreferrer">
             <Button title="Project" />
           </a>
         </div>
